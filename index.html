@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusantara Future Academy • International Standard School</title>
+    <!-- Modern & Elegant Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <div class="logo-text">Nusantara Future Academy<span>International Standards</span></div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#academic">Academic</a></li>
+                <li><a href="#global">Global Network</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- <a href="#" class="btn-outline" id="portalBtn"><i class="fas fa-user-graduate"></i> Student Portal</a> -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section with Background Slider -->
+        <section class="hero" id="home">
+            <!-- Background Slider -->
+            <div class="hero-background">
+                <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80');"></div>
+                <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80');"></div>
+                <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80');"></div>
+            </div>
+            
+            <!-- Overlay Gradient -->
+            <div class="hero-overlay"></div>
+
+            <!-- Slide Indicators -->
+            <div class="slide-indicators">
+                <div class="indicator active" data-slide="0"></div>
+                <div class="indicator" data-slide="1"></div>
+                <div class="indicator" data-slide="2"></div>
+            </div>
+
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <h5>TRADITION OF EXCELLENCE • FUTURE INNOVATION</h5>
+                        <h1>Building a Generation of <span>Global Leaders</span></h1>
+                        <p>Join Indonesia's first academy blending British-standard international curriculum with local wisdom, nurturing integrity and global-minded individuals.</p>
+                        
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">40+</span>
+                                <span class="stat-label">Years of Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">15</span>
+                                <span class="stat-label">Global Campuses</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">98%</span>
+                                <span class="stat-label">Top Universities</span>
+                            </div>
+                        </div>
+
+                        <button class="btn-solid" id="scheduleBtn"><i class="fas fa-calendar-check"></i> Schedule a Visit</button>
+                    </div>
+
+                    <!-- 3D Interactive Card -->
+                    <div class="hero-3d-card">
+                        <div class="floating-element"></div>
+                        <div class="floating-element-2"></div>
+                        
+                        <div class="card-content-3d">
+                            <div class="profile-row">
+                                <div class="profile-avatar"><i class="fas fa-user-tie"></i></div>
+                                <div>
+                                    <h4 style="color: white;">Dr. Amanda Wijaya</h4>
+                                    <p style="color: rgba(255,255,255,0.8);">Head of Academy</p>
+                                    <small style="color: rgba(255,255,255,0.7);">"Education is the gateway to a brighter future."</small>
+                                </div>
+                            </div>
+
+                            <div class="building-icon">
+                                <div class="icon-block"></div>
+                                <div>
+                                    <strong style="color: white;">Integrated Campus</strong>
+                                    <p style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">Modern architecture with green technology</p>
+                                </div>
+                            </div>
+
+                            <div class="profile-row" style="gap: 15px;">
+                                <i class="fas fa-chalkboard-teacher" style="font-size: 2rem; color: var(--accent-soft);"></i>
+                                <div>
+                                    <strong style="color: white;">World-Class Facilities</strong>
+                                    <p style="color: rgba(255,255,255,0.8);">Science labs, theater, sports center</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Global Network Section -->
+        <section class="network-section" id="global">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>NFA Global Network</h2>
+                    <p>Be part of an international-standard school community across Asia and Europe, recognized worldwide.</p>
+                </div>
+
+                <div class="network-grid">
+                    <div class="network-card">
+                        <i class="fas fa-crown"></i>
+                        <h3>Prestigious Heritage</h3>
+                        <p>Adopting centuries-tested British educational values.</p>
+                    </div>
+                    <div class="network-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Strong Community</h3>
+                        <p>Close collaboration with parents, alumni, and global institutions.</p>
+                    </div>
+                    <div class="network-card">
+                        <i class="fas fa-scroll"></i>
+                        <h3>Academic Rigor</h3>
+                        <p>High standards that push students to reach their full potential.</p>
+                    </div>
+                    <div class="network-card">
+                        <i class="fas fa-seedling"></i>
+                        <h3>Holistic & Independent</h3>
+                        <p>Focus on character, leadership, and student wellbeing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Phases -->
+        <section class="academic-phases" id="academic">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Learning Phases</h2>
+                    <p>Curriculum designed according to developmental stages, blending exploration, creativity, and mastery of concepts.</p>
+                </div>
+
+                <div class="phases-container">
+                    <div class="phase-card">
+                        <i class="fas fa-child" style="font-size: 3rem; color: var(--accent);"></i>
+                        <h3>Early Years</h3>
+                        <p class="phase-age">Age 3 - 5 (Nursery - Year 1)</p>
+                        <p>Foundation stage with play-based learning, fostering curiosity and confidence.</p>
+                    </div>
+                    <div class="phase-card">
+                        <i class="fas fa-book-open" style="font-size: 3rem; color: var(--accent);"></i>
+                        <h3>Junior School</h3>
+                        <p class="phase-age">Age 6 - 11 (Year 2 - Year 7)</p>
+                        <p>British national curriculum enriched with collaborative projects and literacy-numeracy reinforcement.</p>
+                    </div>
+                    <div class="phase-card">
+                        <i class="fas fa-globe-asia" style="font-size: 3rem; color: var(--accent);"></i>
+                        <h3>Senior School</h3>
+                        <p class="phase-age">Age 12+ (Year 8 - Year 13)</p>
+                        <p>Preparation for IGCSE, A-Level, and guidance towards top global universities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admission Banner -->
+        <div class="container" id="admissions">
+            <div class="admission-banner">
+                <div class="admission-content">
+                    <h3>Academic Year 2026 - 2027</h3>
+                    <p style="font-size: 1.2rem; opacity: 0.9;">Enrollment for Nursery to Year 3 (age 3 - 7) is now open. Year-round admission depends on seat availability.</p>
+                    <button class="btn-outline" id="infoLengkapBtn"><i class="fas fa-info-circle"></i> More Information</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Founder's Message Area -->
+        <section style="padding: 60px 0 100px;" id="about">
+            <div class="container" style="display: flex; gap: 50px; align-items: center; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 280px;">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%23F9E5B7'/%3E%3Ccircle cx='200' cy='150' r='70' fill='%230A2647'/%3E%3Crect x='120' y='220' width='160' height='150' fill='%232C3E50'/%3E%3C/svg%3E" alt="Founder Illustration" class="founder-img">
+                </div>
+                <div style="flex: 2;">
+                    <h5 style="color: var(--accent); letter-spacing: 2px;">FOUNDER'S MESSAGE</h5>
+                    <h2 style="font-size: 2.5rem; color: var(--primary); margin: 15px 0 20px;">"Serving, Shaping a Better Future"</h2>
+                    <p style="font-size: 1.15rem; margin-bottom: 30px; color: var(--gray-text); font-style: italic;">Nusantara Future Academy bridges local spirit with global insights. We believe every child has extraordinary potential nurtured through a supportive and challenging environment.</p>
+                    <div style="display: flex; align-items: center; gap: 20px;">
+                        <div style="width: 60px; height: 60px; background: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">AW</div>
+                        <div>
+                            <strong>Prof. Anton Wiradharma, M.Ed., Ph.D.</strong>
+                            <p>President & Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container footer-grid">
+            <div>
+                <a href="#home" class="footer-logo"><i class="fas fa-landmark"></i> NFA</a>
+                <p style="margin-bottom: 20px;">Building a generation with character, global insight, and leadership readiness.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 25px;">Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#academic">Curriculum</a></li>
+                    <li><a href="#global">Facilities</a></li>
+                    <li><a href="#contact">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 25px;">Admissions</h4>
+                <ul class="footer-links">
+                    <li><a href="#admissions">Enrollment</a></li>
+                    <li><a href="#admissions">Tuition Fees</a></li>
+                    <li><a href="#admissions">Scholarships</a></li>
+                    <li><a href="#admissions">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 25px;">Contact</h4>
+                <p><i class="fas fa-map-pin" style="margin-right: 10px;"></i> Jl. Pendidikan No. 99, Jakarta</p>
+                <p style="margin: 15px 0;"><i class="fas fa-phone-alt" style="margin-right: 10px;"></i> +62 21 1234 5678</p>
+                <p><i class="fas fa-envelope" style="margin-right: 10px;"></i> info@nfa-edu.sch.id</p>
+            </div>
+        </div>
+        <div class="container" style="text-align: center; margin-top: 60px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1);">
+            <p>© 2025 Nusantara Future Academy. All rights reserved. Inspired by global education spirit.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Schedule a Visit -->
+    <div class="modal" id="scheduleModal">
+        <div class="modal-content">
+            <span class="modal-close" id="closeModal">&times;</span>
+            <h2><i class="fas fa-calendar-check" style="color: var(--accent); margin-right: 10px;"></i> Schedule a Visit</h2>
+            <p style="margin-bottom: 25px; color: var(--gray-text);">Fill out the form below to arrange a visit to our campus.</p>
+            
+            <form id="scheduleForm">
+                <div class="modal-form-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="modal-form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="modal-form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="Enter your phone number" required>
+                </div>
+                
+                <div class="modal-form-group">
+                    <label>Visit Date</label>
+                    <input type="date" required>
+                </div>
+                
+                <div class="modal-form-group">
+                    <label>Select Program</label>
+                    <select required>
+                        <option value="">Select program</option>
+                        <option value="early">Early Years (3-5 years)</option>
+                        <option value="junior">Junior School (6-11 years)</option>
+                        <option value="senior">Senior School (12+ years)</option>
+                        <option value="all">General Information</option>
+                    </select>
+                </div>
+                
+                <div class="modal-form-group">
+                    <label>Additional Message</label>
+                    <textarea rows="3" placeholder="Write your message or question..."></textarea>
+                </div>
+                
+                <button type="submit" class="modal-submit">Send Visit Request</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal for More Information -->
+    <div class="modal" id="infoModal">
+        <div class="modal-content">
+            <span class="modal-close" id="closeInfoModal">&times;</span>
+            <h2><i class="fas fa-info-circle" style="color: var(--accent); margin-right: 10px;"></i> More Information</h2>
+            
+            <div style="margin: 25px 0;">
+                <h3 style="color: var(--primary); margin-bottom: 15px;">Academic Year 2026-2027</h3>
+                
+                <div style="background: var(--light-bg); padding: 20px; border-radius: var(--radius-medium); margin-bottom: 20px;">
+                    <h4 style="color: var(--primary); margin-bottom: 10px;">📅 Enrollment Schedule</h4>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 8px;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 8px;"></i> Wave 1: Jan 1 - Mar 31, 2026</li>
+                        <li style="margin-bottom: 8px;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 8px;"></i> Wave 2: Apr 1 - Jun 30, 2026</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 8px;"></i> Wave 3: Jul 1 - Aug 31, 2026</li>
+                    </ul>
+                </div>
+                
+                <div style="background: var(--light-bg); padding: 20px; border-radius: var(--radius-medium); margin-bottom: 20px;">
+                    <h4 style="color: var(--primary); margin-bottom: 10px;">💰 Estimated Tuition</h4>
+                    <p><strong>Early Years:</strong> IDR 45,000,000 - 55,000,000/year</p>
+                    <p><strong>Junior School:</strong> IDR 65,000,000 - 80,000,000/year</p>
+                    <p><strong>Senior School:</strong> IDR 85,000,000 - 100,000,000/year</p>
+                    <p style="margin-top: 10px; font-style: italic;">*Fees include uniform, books, and basic extracurricular activities</p>
+                </div>
+                
+                <div style="background: var(--light-bg); padding: 20px; border-radius: var(--radius-medium);">
+                    <h4 style="color: var(--primary); margin-bottom: 10px;">📞 Contact Us</h4>
+                    <p><i class="fas fa-phone-alt" style="color: var(--accent); margin-right: 8px;"></i> +62 21 1234 5678 (Mon-Fri, 08:00-16:00)</p>
+                    <p><i class="fas fa-envelope" style="color: var(--accent); margin-right: 8px;"></i> admissions@nfa-edu.sch.id</p>
+                    <p><i class="fas fa-map-pin" style="color: var(--accent); margin-right: 8px;"></i> Jl. Pendidikan No. 99, Jakarta</p>
+                </div>
+            </div>
+            
+            <button class="modal-submit" id="scheduleFromInfoBtn"><i class="fas fa-calendar-check"></i> Schedule a Visit</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
