@@ -50,7 +50,7 @@
 
         /* ===== HEADER & NAVIGASI ===== */
         header {
-            background: var(--border-light);
+            background: rgba(255, 255, 255, 0.85);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border-light);
@@ -821,9 +821,6 @@
             .admission-banner { padding: 40px; }
             .hero {
                 padding: 150px 0 80px;
-            }
-            .hero-content h5 {
-                padding-top: 20px;
             }
         }
 
